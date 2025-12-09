@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, TextIteratorStreamer
 
 # --- Конфигурация: Токен бота ТГ, используемый датасет, имя файла с кэшем для sbert_large_nlu_ru
-API_TOKEN = '8344135063:AAEnatrsEtJFF1N8Me3hdXcoiEMc1yMI-M0' # Вставьте сюда токен вашего бота
+API_TOKEN = '' # Вставьте сюда токен вашего бота
 DATA_FILE_NAME = 'faq_dataset.csv'
 VECTORS_FILE_NAME = 'faq_vectors.npy'
 
