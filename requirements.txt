@@ -1,0 +1,9 @@
+pyTelegramBotAPI
+pandas
+numpy
+torch
+transformers>=4.39.0
+sentence-transformers>=3.0.0
+scikit-learn
+tqdm
+accelerate
