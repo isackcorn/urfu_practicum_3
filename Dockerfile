@@ -17,5 +17,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Копируем содержимое папки src внутрь контейнера в папку /app
 COPY src/ .
 
-# Запускаем скрипт (он теперь лежит прямо в /app)
+# Запускаем скрипт (он находится в /app)
 CMD ["python", "main.py"]
